@@ -1,0 +1,215 @@
+/* TYPOGRAPHY */
+
+nav ul li {
+	font-size: 1.75em;
+	font-family: 'Rambla', sans-serif; 
+}
+
+nav ul li a {
+	color: #96A195;
+}
+
+
+#phone, #email {
+	font-size: 1.5em;
+}
+
+
+/* LAYOUT */
+
+body {
+	margin: 0;
+}
+
+#page_wrap {
+	position: relative;
+	width: 90%;
+	margin: 15px auto;
+	/*background: white;  /* DEBUG */
+}
+
+nav {
+	overflow: auto;
+	width: 100%;
+	margin-left: auto;
+	margin-bottom: 4%;
+	padding: 0;
+	display: box;
+	background: rgba(33,56,33,.8);   /* DEBUG */
+}
+
+/* Smartphones, up to iPhone 6+ (Portrait)
+ * Single column layout */
+@media only screen and (max-width: 450px) {
+}
+
+
+/* Smartphones (Landscape) AND Tablets (Portrait)
+ * Two-column layout */
+@media only screen and (max-width: 768px) {
+
+} 
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	/*width: 15%;
+	/*margin: 0 2.75%;*/
+	width: 15%;
+	margin: 0 2.75%;
+	vertical-align: middle;
+	/*background: #FFF;   /* DEBUG */
+}
+
+nav ul li:last-child {
+	width: 33%;
+	/*background: #FFF;   /* DEBUG */
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: inline;
+	position: absolute;
+	top: .85em;   /* Half the em's as the nav ul li font-size */
+	padding-left: 1.5%;
+}
+
+
+
+
+
+nav ul li img {
+	width: 35%;
+	display: inline;
+	/*margin: 0 auto;
+	/*background: #DDD;    /* DEBUG */
+}
+
+nav ul li:last-child img {
+	width: 17%;
+	/*margin:0 auto;*/
+	display: inline;
+}
+
+/*
+nav ul li img[src$=".svg"] {
+	fill: #96A195;
+	background: #DDD;
+}
+*/
+
+
+
+
+
+#home_center {
+	position: relative;
+	width: 100%;
+	/*background: #0F380D;   /* DEBUG */
+	overflow: auto;
+}
+
+#phone, #email {
+	float: left;
+	width: 25%;
+	/*background: #6A7D69;   /* DEBUG */
+	height: 20%;
+	/*position: relative;
+	margin: 10% auto;  /* 10% is relative to *width* (and it was just a lucky guess) */
+	position: absolute;
+	top: 40%;
+	visibility: hidden;    /* DEBUG */
+}
+
+#phone {
+	left: 0px;
+}
+
+#email {
+	right: 0px;
+}
+
+#logo {
+	float: left;
+	width: 45%;
+	position: relative;
+	margin-left: 27.5%;  /* Half of (100% - #logo.width), to center */
+	/*background: #6A7D69;   /* DEBUG */
+}
+
+
+#badges {
+	width: 100%;
+	margin-top: 7.5%;
+}
+
+.badge {
+	width: 20%;
+	float: left;
+	margin: 0;
+}
+
+
+/* IMAGES/BACKGROUNDS */
+
+#logo img {
+	max-width: 100%;
+}
+
+.badge img {
+	width: 60%;
+}
+
+img.bg {
+	/* Set up proportionate scaling */
+	width: 140%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: -8%;
+	left: -40%;
+	
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	
+	opacity: 0.5;
+}
+
+
+@media screen and (max-width: 1024px) {
+	
+	img .bg {
+		left: 50%;
+		margin-left: -512px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
