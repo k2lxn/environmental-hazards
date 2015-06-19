@@ -69,7 +69,12 @@ nav ul li:last-child {
 nav ul li a {
 	width: 55%;
 	height: 60%;
-	display: inline-block;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 35%;
 	text-align: center;
 	
 	background: rgba(220,20,60,0.3);
@@ -78,6 +83,7 @@ nav ul li a {
 
 nav ul li:last-child a{
 	width: 70%;
+	left: 18.03%;  /* based on image width*/
 }
 
 
@@ -85,7 +91,7 @@ nav ul li img {
 	width: 35%;
 	height: auto;
 	max-width: 100%;
-	display: inline-block;
+	display: block;
 	margin:-17.5% 0px 0px;   /* 17.5% is about half the height b/c the thumbs are square */
 	top: 50%;
 	
