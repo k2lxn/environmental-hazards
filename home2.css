@@ -1,0 +1,122 @@
+/* TYPOGRAPHY */
+
+nav ul li {
+	font-size: 1.75em;
+	font-family: 'Rambla', sans-serif; 
+}
+
+nav ul li a {
+	color: #96A195;
+	text-decoration: none;
+}
+
+
+#phone, #email {
+	font-size: 1.5em;
+	color: rgba(220,20,60,1);
+}
+
+
+/* LAYOUT */
+
+* {
+	margin: 0px; 
+	padding: 0px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url("img/background/bg_test2_2048.png");
+	background-position: center;
+	background-size: cover;
+}
+
+
+nav {
+	width: 100%;
+	height: 20%;
+	max-height: 85px;
+	background: rgba(33,56,33,.8);
+	display: block;
+}
+
+nav ul li {
+	width: 17%;
+	height: 85%;
+	margin: 0px 2%;
+	display: inline-block;
+	overflow: hidden;
+	top: 7.5%;
+	
+	background: rgba(128,202,118,.8);
+}
+
+nav ul li:last-child {
+	width: 33%;
+}
+
+nav ul li a {
+	width: 55%;
+	height: 60%;
+	display: inline-block;
+	text-align: center;
+	
+	background: rgba(220,20,60,0.3);
+}
+
+
+nav ul li:last-child a{
+	width: 70%;
+}
+
+
+nav ul li img {
+	width: 35%;
+	height: auto;
+	max-width: 100%;
+	display: inline-block;
+	margin:-17.5% 0px 0px;   /* 17.5% is about half the height b/c the thumbs are square */
+	top: 50%;
+	
+	background: rgba(245,255,10,.7);
+}
+
+nav ul li:last-child img {
+	width: 18.03%;
+	margin: -9.015% 0px 0px;	
+}
+
+
+#home_center {
+	width: 80%;
+	height: 60%;
+	position: relative;
+	margin-left: auto;
+	top: 10%;
+}
+
+.home {
+	display: inline-block;
+	width: 30%;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+.home img {
+	height: auto;
+}
