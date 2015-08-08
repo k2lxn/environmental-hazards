@@ -63,6 +63,10 @@ nav ul li a {
 	color: rgba(94,25,25,1);
 }
 
+a {  /* PHONE NUMBERS on iPhone */
+	text-decoration: none;
+	color: inherit;
+}
 
 
 
@@ -174,6 +178,7 @@ nav ul li a {
 }
 
 #logo {
+	padding: 10px 0 10px -10px;
 	background: rgba(255,255,255,0.5);
 }
 
@@ -428,27 +433,21 @@ a.anchor {
 	nav ul, nav:active ul {
 		display: none;
 		position: absolute;
-		width: 75%;
-		right: 0px;
+		width: 100%;
 	}
 	
 	nav ul li {
 		width: 100%;
 		height: auto;
-		padding-left: 5px;
+		padding-left: 15px;
 		border-bottom: 1px solid rgb(94,25,25);	
-		/*background: rgba(200,200,200,1);*/
-		background: rgba(190,199,190, 0.8);
+		background: rgba(190,199,190, 1);
 	}
 	
 	nav ul li:nth-child(3) {
 		width: 100%;
 	}
-	
-	nav:hover ul {
-		display: block;
-	}
-	
+
 	#menu-icon {
 		display: inline-block;
 		z-index: 150;
@@ -497,6 +496,10 @@ a.anchor {
 	#scroll_indicator {
 		width: 25px;
 		height: 20px;
+	}
+	
+	section {
+		overflow: hidden;
 	}
 	
 	section header {
