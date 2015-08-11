@@ -102,6 +102,10 @@ header {
 	z-index: 100;
 }
 
+body > header {
+	background: rgba(190,199,190, 0.8);
+}
+
 nav {
 	width: 90%;
 	height: 75px;
@@ -110,7 +114,7 @@ nav {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	background: rgba(190,199,190, 0.8);
+	/*background: rgba(190,199,190, 0.8);*/
 }
 
 nav ul {
@@ -299,7 +303,7 @@ h1 {
 	margin-bottom: 10px;
 }
 
-#lead .wide:before {
+#lead-s .wide:before {
 	background: url('img/lead_section.jpg') top left / cover no-repeat;
 	content: '';
 	width: 100%;
@@ -308,7 +312,7 @@ h1 {
 	opacity: 0.5;
 }
 
-#mold .wide:before {
+#mold-s .wide:before {
 	background: url('img/mold_section.jpg') top left / cover no-repeat;
 	content: '';
 	width: 100%;
@@ -347,7 +351,7 @@ footer {
 }
 
 footer ul {
-	width: 200px;
+	width: 250px;
 	margin: 0 auto;
 	padding: 10px 0;
 	overflow: visible;
